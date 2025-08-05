@@ -91,19 +91,39 @@ content:
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: UNESP - Universidade Estadual Paulista "Júlio de Mesquita Filho"
+        sub_title: Bachelor's Degree in Physics
+        caption: 2023 - 2026
         quote: >
-          Short institution or course description (optional)
+          Solid foundation in mathematical and computational methods
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+          Comprehensive education in physics with strong emphasis on computational methods and data analysis:
+          
+          **Key Areas:**
+          - Advanced Statistics and Calculus
+          - Programming and Software Development
+          - Econophysics with Machine Learning applications
+          - Experimental Physics and Linear Regression analysis
+          - Mathematical modeling and data interpretation
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      - layout: top-right
+        title: Carlos Augusto Patrício Amorim (COTEC/CTIG)
+        sub_title: Technical Degree in Electronics
+        caption: 2020 - 2022
+        quote: >
+          Industrial-focused technical education.
+        description: | # this will include new lines to allow paragraphs
+          Technical education in electronics with strong focus on industrial applications and programming:
+          
+          **Programming & Development:**
+          - C and Assembly programming
+          - Microcontroller programming and embedded systems
+          - Arduino project development and prototyping
+          
+          **Industrial Applications:**
+          - Industrial Automation and Robotics
+          - CNC programming and operation
+          - Control systems and process automation
 
 # Footer
 footer_show_references: true
