@@ -59,6 +59,236 @@ content:
     layout: list
     content:
       - layout: left
+        title: Legal AI Multi-Agent System (In Development)
+        link: https://github.com/lureba/legal-ai-system
+        link_text: View on GitHub
+        additional_links:
+          - title: GitHub Repository
+            icon: fab fa-github
+            url: https://github.com/lureba/legal-ai-system
+          - title: Python Project
+            icon: fab fa-python
+            url: https://github.com/lureba/legal-ai-system
+          - title: Docker
+            icon: fab fa-docker
+            url: https://github.com/lureba/legal-ai-system
+          - title: AWS Services
+            icon: fab fa-aws
+            url: https://github.com/lureba/legal-ai-system
+          - title: Telegram Bot
+            icon: fab fa-telegram
+            url: https://github.com/lureba/legal-ai-system
+        quote: >
+          AI-powered study assistant for law professionals using multi-agent systems and legal document analysis
+        description: |
+          **Status:** In Development (2025)  
+          **Tags:** `Multi-Agent Systems` `Legal Tech` `Vector Database` `Cloud Architecture` `Educational AI`
+          
+          🐳 **Technologies:** Docker • ☁️ LocalStack • 🔍 Qdrant • ⚡ AWS Lambda • 🖥️ EC2 • 📱 Telegram Bot • 🗄️ Redis
+          
+          Intelligent study assistant designed to help law professionals and students navigate 
+          complex legal documents through AI-powered analysis and interactive learning.
+          
+          **Legal Document Knowledge Base:**
+          - Vector database integration using Qdrant for Brazilian legal documents
+          - Static legal document processing (Constitution, Civil Code, Criminal Code, etc.)
+          - Semantic search capabilities across comprehensive legal corpus
+          - Context-aware legal concept explanation and cross-referencing
+          
+          **Multi-Agent Architecture:**
+          - Specialized AI agents for different legal domains (Constitutional, Civil, Criminal Law)
+          - Redis-powered conversation context management for continuous learning sessions
+          - Intelligent document retrieval and legal precedent analysis
+          - Interactive Q&A system with persistent conversation memory
+          - Automated legal research assistance for study purposes
+          
+          **Cloud Infrastructure (LocalStack):**
+          - **Webhook Integration:** Real-time processing for user queries via Telegram
+          - **AWS Lambda:** Serverless functions for agent coordination and NLP processing
+          - **EC2 Instances:** Scalable compute resources for vector search and AI inference
+          - **Redis Cache:** Local conversation context storage for seamless user experience
+          - **Telegram Bot API:** User-friendly interface for legal study assistance
+          - **Port Exposure Service:** Internet-accessible webhook endpoints for Telegram integration
+          
+          **Study Features:** Interactive legal document exploration, concept explanation, 
+          case law analysis, and personalized learning paths with conversation continuity.
+
+      - layout: left
+        title: Movie Recommendation System
+        link: https://github.com/lureba/movie-recommendation-system
+        link_text: View on GitHub
+        additional_links:
+          - title: GitHub Repository
+            icon: fab fa-github
+            url: https://github.com/lureba/movie-recommendation-system
+          - title: Python Project
+            icon: fab fa-python
+            url: https://github.com/lureba/movie-recommendation-system
+          - title: Docker
+            icon: fab fa-docker
+            url: https://github.com/lureba/movie-recommendation-system
+          - title: Kaggle Dataset
+            icon: fab fa-kaggle
+            url: https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows
+        quote: >
+          Intelligent movie recommendation system using vector databases, semantic search, and hybrid algorithms
+        description: |
+          **Completed:** [2025/08]  
+          **Tags:** `Vector Database` `Semantic Search` `Recommendation System` `Prompt Engineering` `Streamlit`
+          
+          Advanced movie recommendation system combining semantic search with traditional filtering 
+          using vector databases and machine learning techniques.
+          
+          **Data Processing & Enrichment:**
+          - IMDB dataset processing (~1000 movie records from Kaggle)
+          - Data enrichment using prompt engineering for genre and title optimization
+          - Semantic content preparation for vector embedding generation
+          - Feature engineering for improved search relevance
+          
+          **Vector Database & Search:**
+          - Qdrant vector database deployment using Docker containers
+          - Vector embeddings generation for semantic movie representation
+          - Hybrid search implementation combining semantic and keyword-based filtering
+          - Real-time similarity matching and ranking algorithms
+          
+          **User Interface & Experience:**
+          - Interactive Streamlit web application for movie discovery
+          - Real-time recommendation engine with user preference inputs
+          - Dynamic filtering and search capabilities
+          - Personalized movie suggestions based on semantic similarity
+
+      - layout: left
+        title: Delta Lake Data Pipeline
+        link: https://github.com/lureba/delta-lake-pipeline
+        link_text: View on GitHub
+        additional_links:
+          - title: GitHub Repository
+            icon: fab fa-github
+            url: https://github.com/lureba/delta-lake-pipeline
+          - title: Python Project
+            icon: fab fa-python
+            url: https://github.com/lureba/delta-lake-pipeline
+          - title: Docker
+            icon: fab fa-docker
+            url: https://github.com/lureba/delta-lake-pipeline
+          - title: Apache Kafka
+            icon: fas fa-stream
+            url: https://github.com/lureba/delta-lake-pipeline
+        quote: >
+          Real-time data pipeline implementing medallion architecture with Delta Lake, Kafka streaming, and containerized services
+        description: |
+          **Completed:** [2025/06]  
+          **Tags:** `Delta Lake` `Real-time Streaming` `Data Architecture` `Containerization` `API Development`
+          
+          End-to-end streaming data pipeline implementing the medallion architecture (Bronze/Silver/Gold) 
+          with real-time data ingestion and processing capabilities.
+          
+          **API & Data Simulation:**
+          - FastAPI service with dynamic endpoints (e.g., `/enem/x`) for CSV data streaming
+          - Automated request generation to simulate high-volume API traffic
+          - Docker containerization for consistent deployment environment
+          - Real-time data source simulation with configurable intervals
+          
+          **Streaming Architecture:**
+          - Kafka producer integration for real-time message streaming
+          - Apache Spark consumer running in Docker containers
+          - Continuous data ingestion from Kafka topics to Delta Lake
+          - Scalable streaming pipeline with fault tolerance
+          
+          **Medallion Data Architecture:**
+          - **Bronze Layer:** Raw data ingestion from Kafka streams into Delta Lake (MinIO)
+          - **Silver Layer:** Data cleaning, transformation, and schema standardization
+          - **Data Processing:** ETL operations with PySpark for data quality and enrichment
+          - **Storage:** MinIO object storage with Delta Lake ACID transactions
+          
+          **Technical Stack:** FastAPI, Kafka, Apache Spark, Delta Lake, MinIO, Docker. 
+
+      - layout: left
+        title: Weather Forecasting System
+        link: https://github.com/lureba/forecasting_weather
+        link_text: View on GitHub
+        additional_links:
+          - title: GitHub Repository
+            icon: fab fa-github
+            url: https://github.com/lureba/forecasting_weather
+          - title: Python Project
+            icon: fab fa-python
+            url: https://github.com/lureba/forecasting_weather
+          - title: Google Cloud Platform
+            icon: fab fa-google
+            url: https://github.com/lureba/forecasting_weather
+          - title: Docker
+            icon: fab fa-docker
+            url: https://github.com/lureba/forecasting_weather
+        quote: >
+          End-to-end weather prediction system with cloud infrastructure, real-time data ingestion, and ML forecasting
+        description: |
+          **Completed:** [2025/05]
+          **Tags:** `Time Series Forecasting` `Cloud Engineering` `Data Orchestration` `LLM Integration` `Web Scraping`
+                    
+          Comprehensive weather forecasting system combining multiple data sources, cloud infrastructure, 
+          and machine learning for accurate weather predictions.
+          
+          **Data Engineering & Orchestration:**
+          - Automated data collection from OpenWeather API using Airflow (hourly intervals)
+          - Web scraping pipeline with daily URL monitoring and content extraction
+          - Google Cloud infrastructure with Cloud SQL for relational data storage
+          - Cloud Storage integration for URL tracking and comparison
+          
+          **Advanced Data Processing:**
+          - LLM-powered temperature classification system (7-category prediction)
+          - Automated content analysis for temperature variation detection
+          - Real-time data validation and quality checks
+          - Historical data aggregation and feature engineering
+          
+          **Machine Learning & Forecasting:**
+          - Time series prediction using XGBoost for temporal pattern recognition
+          - Multi-source data fusion for improved prediction accuracy
+          - Feature engineering from weather API and scraped content
+          - Model performance tracking and optimization
+          
+          **Cloud Architecture:** Google Cloud Platform with automated orchestration and 
+          scalable data storage.
+
+      - layout: left
+        title: Titanic Survival Prediction
+        link: https://github.com/lureba/titanic-ml-analysis
+        link_text: View on GitHub
+        additional_links:
+          - title: GitHub Repository
+            icon: fab fa-github
+            url: https://github.com/lureba/Titanic-US
+          - title: Python Project
+            icon: fab fa-python
+            url: https://github.com/lureba/Titanic-US
+          - title: Kaggle Dataset
+            icon: fab fa-kaggle
+            url: https://www.kaggle.com/c/titanic
+        quote: >
+          Machine learning classification project with extensive hyperparameter optimization and data storytelling
+        description: |
+          **Completed:** [2024/11]  
+          **Tags:** `Machine Learning` `Classification` `Parameter Tuning` `Data Storytelling`
+          
+          Classification project using the classic Kaggle Titanic dataset to predict passenger survival 
+          with focus on model optimization and narrative data visualization.
+          
+          **Machine Learning Pipeline:**
+          - Feature engineering and data preprocessing
+          - Multiple classification algorithms implementation
+          - Extensive hyperparameter tuning across various models
+          - Model performance comparison and optimization
+          
+          **Data Analysis & Visualization:**
+          - Exploratory data analysis with statistical insights
+          - Comprehensive data storytelling through visualizations
+          - Interactive plots demonstrating survival patterns
+          - Feature importance analysis and interpretation
+          
+          **Key Focus:** Advanced parameter tuning techniques to maximize model performance 
+          while maintaining interpretability through compelling visual narratives.
+
+      - layout: left
         title: ENEM Data Analysis
         link: https://github.com/lureba/ENEM-EDA-EN-US
         link_text: View on GitHub
@@ -72,7 +302,8 @@ content:
         quote: >
           Comprehensive socio-economic analysis of Brazil's national exam using large-scale data processing
         description: |
-          **Tags:** `Data Analysis` `Statistical Analysis` `Socio-Economic Research`
+          **Completed:** [2024/09]  
+          **Tags:** `Data Analysis` `Statistical Analysis` 
           
           Analysis of ENEM (Brazil's National High School Exam) data, processing over **1GB of student records** 
           to explore relationships between educational performance and socio-economic factors.
