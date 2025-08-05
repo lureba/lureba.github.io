@@ -79,14 +79,58 @@ content:
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: iFood
+        sub_title: Analytics Engineer Intern
+        caption: 2025 - Present
+        link: https://www.ifood.com.br
         quote: >
-          Short description of the company (optional)
+          Building scalable data products and modernizing data infrastructure at Latin America's leading food delivery platform
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          **Data Products & Pipeline Development:**
+          - Created robust data products using PySpark and Airflow for large-scale data processing
+          - Refactored critical Zendesk → Salesforce data pipeline improving reliability and performance
+          - Implemented Kafka topic ingestion for real-time data streaming
+          
+          **AI Engineering Solutions:**
+          - Developed multi-agent system with vector search capabilities for intelligent pipeline refactoring and optimization
+          - Implemented vector database integration for semantic similarity matching in data lineage analysis
+          - Built comprehensive data monitoring and alerting system with Slack integration for proactive pipeline health tracking
+          - Created LLM-powered taxonomy inference system with vector embeddings for ML item classification based on descriptions
+          - Developed LLM scripts for automatic domain documentation, generating comprehensive technical documentation across data systems
+          - Utilized Docker and LocalStack for cost-effective development and testing of data infrastructure components
+          
+          **Data Engineering & Architecture:**
+          - Designed modular pipeline architecture using Databricks Asset Bundles for improved code maintainability
+          - Implemented Real-Time (RT) and Delta Live Tables (DLT) for efficient data processing workflows
+          - Structured initial source architecture patterns for consistent data ingestion across multiple systems
+          - Created reusable data merge and data quality module utilized across the entire domain
+
+
+
+      - layout: right
+        title: Yooga (Local Business)
+        sub_title: Administrative Assistant
+        caption: 2022 - 2023
+        quote: >
+          Business operations optimization through data-driven insights and process automation
+        description: | # this will include new lines to allow paragraphs
+          **Business Intelligence & Reporting:**
+          - Consolidated fragmented business data to enable comprehensive performance tracking
+          - Created automated reporting system for daily sales monitoring and inventory management
+          - Developed KPI dashboards tracking key business metrics: daily revenue, average ticket, and cash flow
+          
+          **Process Optimization:**
+          - Streamlined inventory cycle monitoring reducing stockouts and overstock situations
+          - Automated manual reporting processes saving 10+ hours weekly of administrative work
+          - Established data-driven decision making framework for business operations
+          
+          **Technical Implementation:**
+          - Built end-to-end data pipeline from Excel sources to interactive Power BI dashboards
+          - Implemented PostgreSQL database solution for centralized business data storage
+          
+          This role provided valuable experience in translating business requirements into 
+          technical solutions and understanding the impact of data quality on business decisions.
+
   - title: Education
     layout: list
     content:
