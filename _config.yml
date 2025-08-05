@@ -41,13 +41,21 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Data Engineer specialized in robust pipelines and scalable analytical architectures.
+ 
+   I work on developing and maintaining data pipelines with focus on ETL/ELT processes, 
+   data modeling, and analytical architecture. I primarily use SQL, PySpark, and Airflow 
+   to organize and deliver data efficiently for analytics and product teams.
+   
+ **Core Expertise:**
+  - Data pipelines (ETL/ELT) with PySpark and Airflow
+  - Data modeling and architecture design
+  - Cloud Computing and containerization (Docker)
+  - Vector databases and multi-agent systems
+  - DLT pipelines and Databricks Asset Bundles
+ 
+ Focused on building data infrastructures that scale with business growth and 
+ enable data-driven decision making.
 
 content:
   - title: Projects # Title for the section
