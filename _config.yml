@@ -40,21 +40,20 @@ additional_links:
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   Data Engineer specialized in robust pipelines and scalable analytical architectures.
- 
-   I work on developing and maintaining data pipelines with focus on ETL/ELT processes, 
-   data modeling, and analytical architecture. I primarily use SQL, PySpark, and Airflow 
-   to organize and deliver data efficiently for analytics and product teams.
-   
- **Core Expertise:**
+  
+  I work on developing and maintaining data pipelines with focus on ETL/ELT processes, 
+  data modeling, and analytical architecture. I primarily use SQL, PySpark, and Airflow 
+  to organize and deliver data efficiently for analytics and product teams.
+  
+  **Core Expertise:**
   - Data pipelines (ETL/ELT) with PySpark and Airflow
   - Data modeling and architecture design
   - Cloud Computing and containerization (Docker)
   - Vector databases and multi-agent systems
   - DLT pipelines and Databricks Asset Bundles
- 
- Focused on building data infrastructures that scale with business growth and 
- enable data-driven decision making.
-
+  
+  Focused on building data infrastructures that scale with business growth and 
+  enable data-driven decision making.
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
