@@ -55,26 +55,40 @@ about_content: | # this will include new lines to allow paragraphs
   Focused on building data infrastructures that scale with business growth and 
   enable data-driven decision making.
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: ENEM Data Analysis
+        link: https://github.com/lureba/ENEM-EDA-EN-US
+        link_text: View on GitHub
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: GitHub Repository
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/lureba/ENEM-EDA-EN-US
+          - title: Python Project
+            icon: fab fa-python
+            url: https://github.com/lureba/ENEM-EDA-EN-US
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Comprehensive socio-economic analysis of Brazil's national exam using large-scale data processing
+        description: |
+          **Tags:** `Data Analysis` `Statistical Analysis` `Socio-Economic Research`
+          
+          Analysis of ENEM (Brazil's National High School Exam) data, processing over **1GB of student records** 
+          to explore relationships between educational performance and socio-economic factors.
+          
+          **Analysis Areas:**
+          - Correlation between socio-economic profile and exam scores
+          - Geographic performance distribution across Brazilian regions
+          - Statistical relationships between family income and academic achievement
+          - Educational inequality patterns across different demographics
+          
+          **Technical Implementation:**
+          - Large-scale data processing and cleaning with Pandas
+          - Memory-efficient handling of 1GB+ datasets
+          - Statistical analysis and data visualization
+          - Exploratory data analysis of complex educational datasets
+
   - title: Experience
     layout: list
     content:
